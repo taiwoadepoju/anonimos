@@ -1,0 +1,138 @@
+/*General Styles*/
+html,body {
+  width:100%;
+  height: auto;
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+body{
+	font-family: Poppins, sans-serif;
+	font-weight: 400;
+	color: #444;
+}
+
+/*Navbar*/
+nav.navbar-custom{
+	background-color: rgba(0,0,0, 0.7);
+}
+
+nav .navbar-nav .nav-item .nav-link{
+	color: #fff;
+	float:right;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover{
+	color: #007bff;
+}
+
+
+/*Banner section*/
+.banner{
+	background-image: url(./images/banner.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20px;
+	height: 500px;
+	margin-top: -60px;
+}
+
+.page-banner{
+	background-image: url(./images/banner.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20px;
+	padding-bottom: 0px;
+	height: 200px;
+	margin-top: -60px;
+}
+
+/*How it works section*/
+.description{
+	background-image: url(./images/bg.png);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.description h6{
+	font-weight: bold;
+}
+
+.icon{
+	color: #007bff;
+	font-size: 50px;
+}
+
+.icon:hover{
+	box-shadow: 5px 10px 30px 5px;
+	border-radius: 50%;
+}
+
+/*Fact section*/
+.fact{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #637e18;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #007bff;
+}
+
+/*Download app section*/
+.download{
+	background-image: url(./images/bg.png);
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.download h5{
+	font-weight: bold;
+}
+
+.download img{
+	box-shadow: 5px 5px 30px 5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.download img:hover{
+	box-shadow: unset;
+}
+
+.download-img{
+	box-shadow: unset!important;
+	max-height: 100px;
+}
+
+/*About Section*/
+.about-image{
+	box-shadow: unset!important;
+	height: 200px!important;
+	margin: auto;
+	display: block;
+}
+
+/*Footer section*/
+footer{
+	background-color: #444;
+	color: #c1c1c1;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	padding-left: 20px;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #343a40;
+}
+
